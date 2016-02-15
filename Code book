@@ -1,0 +1,38 @@
+
+
+Data Source
+The source data is taken from this website:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+The link to the zip folder containing data set:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+The dataset includes 28 files containing details of the results of an experiment carried out on 30 individuals.  The dataset was split in two with 70% selected for the training set and 30% for the test set.  A full description can be found on the website above.
+
+The following 6 files relating to the training/test sets were extracted:  
+.	test/subject_test.txt
+.	test/X_test.txt
+.	test/y_test.txt
+.	train/subject_train.txt
+.	train/X_train.txt
+.	train/y_train.txt
+
+The files were combined to create a single dataset.
+
+Description
+
+Characteristics: Multivariate, Time series
+
+Name	       Number of Rows	   Number of Columns
+FinalData3	    10,299	              68
+
+Variable Description
+
+Variable	                Description	                                  R Data Type
+subject	          Unique subject identifier	                                Integer (1.30)
+activity	        Activities performed by subjects in experiment	    Factor (6 levels)
+Columns 3:68	    Mean and standard deviations of various             Numeric
+                  measurements relating to the experiment
+		
+
+Details of the transformations performed on the original data sets to generate the dataset "FinalData3" are set out in the markdown document Getting.Cleaning_Data_Project.Rmd
